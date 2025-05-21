@@ -24,7 +24,6 @@ watch(todos, () => {
 })
 watch(filterTodos, () => {
   filteredTodos.value = []
-  console.log(filteredTodos.value)
   switch (filterTodos.value) {
     case 'open' :
       filteredTodos.value = todos.value.filter(e => e.status === 'open')

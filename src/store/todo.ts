@@ -16,7 +16,6 @@ export const useTodo = defineStore('todo', () => {
         }
     }
     function addTodo(name: string) {
-        console.log(todos.value)
         const data  = {} as ITodo
         let generateId: number
         do {
