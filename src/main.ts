@@ -1,5 +1,9 @@
 import { createApp } from 'vue'
-import './style.css'
+import './scss/main.scss'
 import App from './App.vue'
-
-createApp(App).mount('#app')
+import {createPinia} from "pinia";
+import 'notyf/notyf.min.css'
+const app = createApp(App)
+const store = createPinia() // Init Pinia (Store-manager)
+app.use(store)
+app.mount('#app')
