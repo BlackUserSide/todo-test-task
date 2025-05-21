@@ -17,6 +17,7 @@ const todos = computed(() => {
 })
 const filteredTodos: Ref<ITodo[]> = ref([])
 onBeforeMount(() => {
+  document.title = "Todo Tech Task"
   todosStore.getTodosLocal()
 })
 watch(todos, () => {
@@ -36,6 +37,7 @@ watch(filterTodos, () => {
       break
   }
 })
+
 const handlerTodo = () => {
   if (error) {
     error.value = null
