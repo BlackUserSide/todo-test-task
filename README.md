@@ -1,4 +1,4 @@
-# shop-task-backend
+# Todo tech task Vue 3
 ---
 
 ## 🛠 Tech Stack
