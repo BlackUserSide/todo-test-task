@@ -1,7 +1,4 @@
 # shop-task-backend
-
-A full-stack application developed as a technical test task. The project includes a backend built with NestJS and Prisma, and a frontend built with Vue 2 and Vuex.
-
 ---
 
 ## 🛠 Tech Stack
